@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    background-color: rgb(225, 225, 225);
+    width: 100px;
+    height: max-content;
+    filter: drop-shadow(1rem 1rem 10px);
+}
+
+.files, .favorite, .settings, .home, .close {
+    display: flex;
+}
+
+.files:hover, .favorite:hover, .settings:hover, .home:hover, .close:hover {
+    cursor: pointer;
+    background-color: rgb(99, 99, 99);
+}
+
