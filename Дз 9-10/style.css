@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(42, 84, 87);
+    padding: 100px;
+    display: grid;
+    gap: 30px;
+}
+
+.author img{
+    width: 80px;
+    height: 80px;
+}
+
+.author{
+    display: flex;
+    gap: 50px;
+}
+
+.author:hover {
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.author-text, .comments-part, .publish-part, .update-text {
+    color: rgb(134, 134, 134);
+}
+
+.top {
+    color: rgb(127, 127, 127);
+}
+
+.main-text{
+    color: rgb(97, 136, 142);
+   text-align: left;
+   max-width: 400px;
+}
+
+.name, .comment-text, .publish-date, .update-date {
+    color: rgb(97, 136, 142);
+}
